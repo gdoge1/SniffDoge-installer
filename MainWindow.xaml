@@ -1,0 +1,15 @@
+﻿<Window x:Class="SniffDoge_installer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SniffDoge_installer"
+        mc:Ignorable="d"
+        Title="SniffDoge Installer" Height="450" Width="800">
+    <Grid Background="#FF414141">
+        <TextBox HorizontalAlignment="Center" Height="92" Margin="0,21,0,0" TextWrapping="Wrap" Text="SniffDoge Installer" VerticalAlignment="Top" Width="361" FontSize="36" TextAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Arial Black"/>
+        <Button x:Name="install_btn" Content="Install" HorizontalAlignment="Left" Height="71" Margin="292,217,0,0" VerticalAlignment="Top" Width="219" Background="{x:Null}" BorderBrush="White" FontFamily="Arial Black" FontSize="24" Click="install_btn_Click"/>
+        <CheckBox x:Name="desktop_btn" Content="Create Desktop Icon" HorizontalAlignment="Left" Height="18" Margin="534,234,0,0" VerticalAlignment="Top" Width="153"/>
+
+    </Grid>
+</Window>
